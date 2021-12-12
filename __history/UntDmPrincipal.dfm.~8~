@@ -1,0 +1,39 @@
+object DtMdPrincipal: TDtMdPrincipal
+  Height = 201
+  Width = 389
+  PixelsPerInch = 96
+  object RESTClientAPICSharp: TRESTClient
+    Accept = 'application/json, text/plain; q=0.9, text/html;q=0.8,'
+    AcceptCharset = 'utf-8, *;q=0.8'
+    BaseURL = 'https://api.chucknorris.io/jokes/random'
+    Params = <>
+    Left = 32
+    Top = 16
+  end
+  object RESTResponsePessoa: TRESTResponse
+    Left = 32
+    Top = 72
+  end
+  object RESTRequestPessoa: TRESTRequest
+    Client = RESTClientAPICSharp
+    Params = <>
+    Response = RESTResponsePessoa
+    Left = 152
+    Top = 16
+  end
+  object RESTRequestPut: TRESTRequest
+    Client = RESTClientAPICSharp
+    Method = rmPUT
+    Params = <
+      item
+        Kind = pkURLSEGMENT
+        Name = 'id'
+        Options = [poAutoCreated]
+        ContentTypeStr = 'application/andrew-inset'
+      end>
+    Resource = '{id}'
+    Response = RESTResponsePessoa
+    Left = 272
+    Top = 16
+  end
+end

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/12/07 23:33:31.000.201,=C:\Users\windows10\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/12/08 00:09:58.000.048,C:\Users\windows10\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\windows10\Desktop\Projetos Delphi XE 11\Consumindo API REST\UntConsomeServico.pas</Transaction>
+    <Transaction>2021/12/08 00:09:58.000.048,C:\Users\windows10\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\windows10\Desktop\Projetos Delphi XE 11\Consumindo API REST\UntConsomeServico.fmx</Transaction>
+    <Transaction>2021/12/08 00:10:23.000.571,C:\Users\windows10\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\windows10\Desktop\Projetos Delphi XE 11\Consumindo API REST\ProjConsomeAPIREST.dproj</Transaction>
+    <Transaction>2021/12/09 00:57:44.000.494,=C:\Users\windows10\Desktop\Projetos Delphi XE 11\Consumindo API REST\Unit1.pas</Transaction>
+    <Transaction>2021/12/09 00:58:15.000.665,C:\Users\windows10\Desktop\Projetos Delphi XE 11\Consumindo API REST\UntDmPrincipal.dfm=C:\Users\windows10\Desktop\Projetos Delphi XE 11\Consumindo API REST\Unit1.dfm</Transaction>
+    <Transaction>2021/12/09 00:58:15.000.665,C:\Users\windows10\Desktop\Projetos Delphi XE 11\Consumindo API REST\UntDmPrincipal.pas=C:\Users\windows10\Desktop\Projetos Delphi XE 11\Consumindo API REST\Unit1.pas</Transaction>
+    <Transaction>2021/12/11 16:12:27.000.035,=C:\Users\windows10\Desktop\Projetos Delphi XE 11\Consumindo API REST\Unit1.pas</Transaction>
+    <Transaction>2021/12/11 16:14:12.000.126,C:\Users\windows10\Desktop\Projetos Delphi XE 11\Consumindo API REST\UntIPessoa.pas=C:\Users\windows10\Desktop\Projetos Delphi XE 11\Consumindo API REST\Unit1.pas</Transaction>
+    <Transaction>2021/12/11 16:15:13.000.208,=C:\Users\windows10\Desktop\Projetos Delphi XE 11\Consumindo API REST\Unit1.pas</Transaction>
+    <Transaction>2021/12/11 16:16:38.000.071,C:\Users\windows10\Desktop\Projetos Delphi XE 11\Consumindo API REST\UntPessoa.pas=C:\Users\windows10\Desktop\Projetos Delphi XE 11\Consumindo API REST\Unit1.pas</Transaction>
+    <Transaction>2021/12/11 20:24:51.000.073,=C:\Users\windows10\Desktop\Projetos Delphi XE 11\Consumindo API REST\Unit2.pas</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,334 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 363
+  ClientWidth = 518
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object TabControl1: TTabControl
+    Align = Client
+    Size.Width = 518.000000000000000000
+    Size.Height = 363.000000000000000000
+    Size.PlatformDefault = False
+    TabIndex = 1
+    TabOrder = 44
+    TabPosition = None
+    Sizes = (
+      518s
+      363s
+      518s
+      363s)
+    object TabItMemTable: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItMemTable'
+      ExplicitSize.cx = 101.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      object Panel2: TPanel
+        Align = Top
+        Size.Width = 518.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 40
+        object Edit1: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 13
+          Text = 'https://localhost:5001/api/pessoa'
+          Position.X = 86.000000000000000000
+          Position.Y = 14.000000000000000000
+          Size.Width = 313.000000000000000000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Label1: TLabel
+          Position.X = 9.000000000000000000
+          Position.Y = 17.000000000000000000
+          Size.Width = 71.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Url API REST:'
+          TabOrder = 14
+        end
+      end
+      object StringGrid1: TStringGrid
+        Align = Client
+        CanFocus = True
+        ClipChildren = True
+        Size.Width = 518.000000000000000000
+        Size.Height = 274.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 16
+        RowCount = 0
+        Options = [ColumnResize, ColumnMove, ColLines, RowLines, Tabs, Header, HeaderClick, AutoDisplacement]
+        Viewport.Width = 514.000000000000000000
+        Viewport.Height = 249.000000000000000000
+      end
+      object Panel1: TPanel
+        Align = Bottom
+        Position.Y = 322.000000000000000000
+        Size.Width = 518.000000000000000000
+        Size.Height = 41.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 33
+        object btnAtualiza: TButton
+          Position.X = 430.000000000000000000
+          Position.Y = 11.000000000000000000
+          TabOrder = 29
+          Text = 'Atualizar'
+          OnClick = btnAtualizaClick
+        end
+        object btnInserir: TButton
+          Position.X = 40.000000000000000000
+          Position.Y = 11.000000000000000000
+          TabOrder = 32
+          Text = 'Inserir'
+          OnClick = btnInserirClick
+        end
+        object btnAlterar: TButton
+          Position.X = 162.000000000000000000
+          Position.Y = 11.000000000000000000
+          TabOrder = 31
+          Text = 'Alterar'
+          OnClick = btnAlterarClick
+        end
+        object btnDelete: TButton
+          Position.X = 272.000000000000000000
+          Position.Y = 11.000000000000000000
+          TabOrder = 30
+          Text = 'Deletar'
+          OnClick = btnDeleteClick
+        end
+      end
+    end
+    object TabItCampos: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItCampos'
+      ExplicitSize.cx = 89.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      object edtId: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 3
+        ReadOnly = True
+        Position.X = 50.000000000000000000
+        Position.Y = 36.000000000000000000
+        Enabled = False
+        Size.Width = 38.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        object Label2: TLabel
+          Position.X = -21.000000000000000000
+          Position.Y = 3.000000000000000000
+          Size.Width = 18.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Id:'
+          TabOrder = 0
+        end
+      end
+      object edtNome: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 2
+        Position.X = 50.000000000000000000
+        Position.Y = 77.000000000000000000
+        Size.Width = 124.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        object Label3: TLabel
+          Position.X = -44.000000000000000000
+          Position.Y = 3.000000000000000000
+          Size.Width = 41.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Nome:'
+          TabOrder = 0
+        end
+      end
+      object edtCPF: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 1
+        Position.X = 326.000000000000000000
+        Position.Y = 38.000000000000000000
+        Size.Width = 97.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        object Label5: TLabel
+          Position.X = -29.000000000000000000
+          Position.Y = 3.000000000000000000
+          Size.Width = 25.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'CPF:'
+          TabOrder = 0
+        end
+      end
+      object edtEndereco: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 0
+        Position.X = 328.000000000000000000
+        Position.Y = 77.000000000000000000
+        Size.Width = 38.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        object Label4: TLabel
+          Position.X = -103.000000000000000000
+          Position.Y = 3.000000000000000000
+          Size.Width = 97.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'C'#243'digo Endere'#231'o:'
+          TabOrder = 0
+        end
+      end
+      object Panel3: TPanel
+        Align = Bottom
+        Position.Y = 317.000000000000000000
+        Size.Width = 518.000000000000000000
+        Size.Height = 46.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 4
+        object btnPut: TButton
+          Position.X = 219.000000000000000000
+          Position.Y = 11.000000000000000000
+          Size.Width = 49.000000000000000000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 24
+          Text = 'Put'
+          OnClick = btnPutClick
+        end
+        object btnPost: TButton
+          Position.X = 133.000000000000000000
+          Position.Y = 11.000000000000000000
+          Size.Width = 51.000000000000000000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 29
+          Text = 'Post'
+          OnClick = btnPostClick
+        end
+        object btnDeleteMethod: TButton
+          Position.X = 299.000000000000000000
+          Position.Y = 11.000000000000000000
+          Size.Width = 65.000000000000000000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 30
+          Text = 'Delete'
+          OnClick = btnDeleteMethodClick
+        end
+        object btnVoltar: TButton
+          Position.X = 8.000000000000000000
+          Position.Y = 11.000000000000000000
+          TabOrder = 31
+          Text = '< Voltar'
+          OnClick = btnVoltarClick
+        end
+      end
+    end
+  end
+  object RESTRespDtSetAdapterPessoa: TRESTResponseDataSetAdapter
+    Dataset = FDMemTbPessoa
+    FieldDefs = <>
+    Left = 204
+    Top = 34
+  end
+  object BindSourceDB1: TBindSourceDB
+    ScopeMappings = <>
+    Left = 452
+    Top = 93
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 260
+    Top = 94
+    object LinkControlToField1: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB2
+      FieldName = 'id'
+      Control = edtId
+      Track = False
+    end
+    object LinkControlToField2: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB2
+      FieldName = 'nome'
+      Control = edtNome
+      Track = False
+    end
+    object LinkControlToField3: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB2
+      FieldName = 'endereco'
+      Control = edtEndereco
+      Track = False
+    end
+    object LinkControlToField4: TLinkControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB2
+      FieldName = 'cpf'
+      Control = edtCPF
+      Track = False
+    end
+    object LinkGridToDataSourceBindSourceDB2: TLinkGridToDataSource
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB2
+      GridControl = StringGrid1
+      Columns = <>
+    end
+  end
+  object FDMemTbPessoa: TFDMemTable
+    FieldDefs = <>
+    IndexDefs = <>
+    FetchOptions.AssignedValues = [evMode]
+    FetchOptions.Mode = fmAll
+    ResourceOptions.AssignedValues = [rvSilentMode]
+    ResourceOptions.SilentMode = True
+    UpdateOptions.AssignedValues = [uvUpdateChngFields, uvUpdateMode, uvLockMode, uvLockPoint, uvLockWait, uvRefreshMode, uvFetchGeneratorsPoint, uvCheckRequired, uvCheckReadOnly, uvCheckUpdatable, uvAutoCommitUpdates]
+    UpdateOptions.LockWait = True
+    UpdateOptions.FetchGeneratorsPoint = gpNone
+    UpdateOptions.CheckRequired = False
+    UpdateOptions.AutoCommitUpdates = True
+    StoreDefs = True
+    Left = 368
+    Top = 40
+    object FDMemTbPessoaid: TIntegerField
+      FieldName = 'id'
+    end
+    object FDMemTbPessoanome: TStringField
+      DisplayWidth = 50
+      FieldName = 'nome'
+    end
+    object FDMemTbPessoacpf: TStringField
+      FieldName = 'cpf'
+    end
+    object FDMemTbPessoaendereco: TIntegerField
+      FieldName = 'endereco'
+    end
+  end
+  object BindSourceDB2: TBindSourceDB
+    DataSet = FDMemTbPessoa
+    ScopeMappings = <>
+    Left = 152
+    Top = 96
+  end
+end
